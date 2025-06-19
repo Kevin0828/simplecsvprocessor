@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Lazy;
 @NoArgsConstructor
 @AllArgsConstructor
 @Lazy
+@Table(name = "addresses")
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

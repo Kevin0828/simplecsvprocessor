@@ -15,10 +15,11 @@ import org.springframework.context.annotation.Lazy;
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long adresseeId;
+    private Long addressId;
     private String street;
     private String city;
     private String state;
     private String zipCode;
+    private Long clientId;
 
 }
